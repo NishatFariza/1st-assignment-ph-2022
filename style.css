@@ -8,8 +8,10 @@ h1{
 }
 h2{
     font-size:48px;
+    color:#333333;
 }
 .hero-title{
+    margin-top:50px;
     padding-left: 20px;
     border-radius: 5px;
     border-left:4px solid #FF5959;
@@ -34,7 +36,11 @@ h2{
 
 .half-width{
     width:50%;
+    padding-top:30px
 
+}
+.hero-centent{
+    margin-top:100px;
 }
 .half-width img{
     width:500px;
@@ -44,7 +50,7 @@ h2{
 .hero-discription p{
     padding-bottom: 20px;
 }
-.hero-link-button{
+.link-button{
     color:white;
     padding:12px 38px;
     border-radius: 5px;
@@ -55,17 +61,21 @@ h2{
     padding-top:33px ;
 }
 .my-mission-section{
-    width:80%;
+
     text-align: center;
-    margin:0 auto;
-    margin-bottom:80px;
+   
+    
 }
 .mission-card-wrapper{
     display: flex;
+    width:80%;
+    margin:0 auto;
     justify-content: space-around;
+    padding-bottom:80px;
 }
 .mission-card{
     width:360px;
+    margin-right: 24px;
     padding:25px 32px 45px 15px;
     border-radius: 26px;
     
@@ -81,5 +91,62 @@ h2{
     background-color: #ffeeee;
 }
 .third-card{
+    margin-right: 0;
     background-color: #fff4d6;
+}
+.develop-limits-section{
+    background-image:url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+    margin-bottom:100px;
+}
+.develop-limits-wrapper{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+}
+.develop-content{
+    width:45%;
+    margin-left:40px;
+}
+.read-the-document{
+    padding-top:30px;
+}
+.read-more-button{
+    padding:14px 30px;
+}
+.global-community-section{
+    padding-bottom:100px;
+    background-image:url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: bottom 40px right 40px;
+}
+.global-community img{
+    padding:40px;
+}
+.stay-safe-section{
+    padding-bottom:100px;
+
+}
+.stay-safe-title-wrap{
+    text-align: center;
+}
+.stay-safe-wrapper{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+
+}
+..stay-safe-img{
+    
+    align-items: center;
+}
+.stay-safe-img img{
+    width:230px;
+    height:470px;
+}
+.right-content{
+
 }
