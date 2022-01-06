@@ -31,19 +31,20 @@ h2{
     display:flex;
     margin:0 auto;
     width:80%;
-    margin-bottom:100px;
+    margin-bottom:140px;
 }
 
 .half-width{
     width:50%;
-    padding-top:30px
+    padding-top:30px;
 
 }
 .hero-centent{
-    margin-top:100px;
+    margin-top:30px;
 }
 .half-width img{
     width:500px;
+    /* margin-top:10px; */
 
 
 }
